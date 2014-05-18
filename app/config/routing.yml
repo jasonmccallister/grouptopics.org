@@ -1,3 +1,4 @@
-core:
-    resource: "@CoreBundle/Resources/config/routing.yml"
+gt_public:
+    resource: "@GtPublicBundle/Resources/config/routing.yml"
     prefix:   /
+
