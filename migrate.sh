@@ -1,3 +1,3 @@
-cp app/config/parameters.yml.dist
+# cp app/config/parameters.yml.dist
 
-composer install
+# composer install
