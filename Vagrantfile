@@ -17,7 +17,7 @@ hostname        = "dev.grouptopics.org"
 #   172.16.0.1  - 172.31.255.254
 #   192.168.0.1 - 192.168.255.254
 server_ip             = "192.168.22.10"
-server_memory         = "768" # MB
+server_memory         = "1024" # MB
 server_timezone       = "UTC"
 
 # Database Configuration
@@ -32,7 +32,7 @@ ruby_version          = "latest" # Choose what ruby version should be installed 
 ruby_gems             = [        # List any Ruby Gems that you want to install
   #"jekyll",
   "sass",
-  #"compass",
+  "compass",
 ]
 
 # HHVM Options
