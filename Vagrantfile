@@ -11,11 +11,6 @@ github_branch   = "master"
 hostname        = "dev.grouptopics.org"
 
 # Set a local private network IP address.
-# See http://en.wikipedia.org/wiki/Private_network for explanation
-# You can use the following IP ranges:
-#   10.0.0.1    - 10.255.255.254
-#   172.16.0.1  - 172.31.255.254
-#   192.168.0.1 - 192.168.255.254
 server_ip             = "192.168.22.10"
 server_memory         = "1024" # MB
 server_timezone       = "UTC"
