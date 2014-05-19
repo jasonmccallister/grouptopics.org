@@ -2,7 +2,7 @@
 
 @import "vendor/twbs/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss";
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400italic,400,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400italic,400,300,500);
 
 // TYPOGRAPHY
 
@@ -12,25 +12,48 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #444;
-    margin-bottom: 21px;
+    margin-bottom: 2.1rem;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+div#sponsor > h1 {
+    @extend .text-center;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2.0rem;
 }
 
 blockquote {}
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 28px;
-    margin-bottom: 21px;
+    line-height: 2.8rem;
+    font-size: 1.4rem;
+    font-weight:300;
+    margin-bottom: 2.1rem;
 }
+
+div#introduction > p {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 4.2rem;
+}
+
+div#sponsor > p {
+    @extend .text-center;
+    font-size: 2.0rem;
+    font-style: italic;
+    line-height: 3.8rem;
+}
+
 
 ol {}
 
@@ -39,18 +62,18 @@ ul {}
 // LAYOUT
 
 div#navigation {
-    border-top: 3px #048BDC solid;
-    height: 117px;
+    border-top: .3rem #048BDC solid;
+    height: 11.7rem;
     margin-bottom: 42px;
 }
 
 div#navigation div#search {
     padding-left: 0px;
-    margin-top: 42px;
+    margin-top: 4.2rem;
 }
 
 div#navigation div#search input {
-    padding: 21px;
+    padding: 2.1rem;
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
@@ -58,13 +81,25 @@ div#navigation div#search input {
 div#navigation a.navbar-link {
     color: #2980B9;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    padding-left: 21px;
-    padding-right: 21px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+}
+
+div#navigation a.navbar-link:hover {
+    text-decoration: none;
 }
 
 div#navigation p.navbar-text {
-    margin-top: 42px;
+    margin-top: 4.2rem;
 }
 
 div#navigation p.navbar-text a:hover {}
+
+div#sponsor {
+    @extend .col-md-3;
+    @extend .col-md-offset-1;
+    padding-bottom: 2.1rem;
+    padding-top: 2.1rem;
+}
