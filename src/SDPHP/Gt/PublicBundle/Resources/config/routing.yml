@@ -1,3 +1,0 @@
-public_homepage:
-    path:  /
-    defaults: { _controller: GtPublicBundle:Default:index }
