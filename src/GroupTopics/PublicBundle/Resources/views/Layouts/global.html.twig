@@ -1,0 +1,26 @@
+{% include 'GtPublicBundle:Layouts:header.html.twig' %}
+
+{% include 'GtPublicBundle:Layouts:navigation.html.twig' %}
+
+<div id="introduction" class="container-fluid">
+<div class="container">
+
+    {# NOT REQUIRED - HOMEPAGE ONLY #}
+    {% block hero %}{% endblock %}
+
+
+</div>
+</div>
+
+<div class="row">
+<div class="container">
+
+
+      {% block content %}{% endblock %}
+
+
+</div>
+</div>
+
+
+{% include 'GtPublicBundle:Layouts:footer.html.twig' %}
