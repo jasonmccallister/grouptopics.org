@@ -1,3 +1,15 @@
-group_topics_frontend_homepage:
+frontend_homepage:
     path:  /
     defaults: { _controller: GroupTopicsFrontendBundle:Default:index }
+
+frontend_about:
+    path:  /about
+    defaults: { _controller: GroupTopicsFrontendBundle:Default:about }
+
+frontend_groups:
+    path:  /groups
+    defaults: { _controller: GroupTopicsFrontendBundle:Default:groups }
+
+frontend_topics:
+    path:  /topics
+    defaults: { _controller: GroupTopicsFrontendBundle:Default:topics }
