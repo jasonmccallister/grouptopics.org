@@ -1,0 +1,15 @@
+account_homepage:
+    path:  /account
+    defaults: { _controller: GroupTopicsAccountBundle:Default:index }
+
+account_login:
+    path:  /login
+    defaults: { _controller: GroupTopicsAccountBundle:Default:login }
+
+account_signup:
+    path:  /signup
+    defaults: { _controller: GroupTopicsAccountBundle:Default:signup }
+
+account_new_topic:
+    path:  /new-topic
+    defaults: { _controller: GroupTopicsAccountBundle:Default:new }

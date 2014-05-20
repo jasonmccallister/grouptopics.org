@@ -1,3 +1,7 @@
+group_topics_account:
+    resource: "@GroupTopicsAccountBundle/Resources/config/routing.yml"
+    prefix:   /
+
 group_topics_frontend:
     resource: "@GroupTopicsFrontendBundle/Resources/config/routing.yml"
     prefix:   /
