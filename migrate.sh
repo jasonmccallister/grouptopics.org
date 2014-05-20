@@ -1,3 +1,3 @@
-# cp app/config/parameters.yml.dist
-
-# composer install
+# run composer install in the app directory
+cd /home/vagrant
+composer install
