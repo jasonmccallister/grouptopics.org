@@ -40,7 +40,8 @@ Group Topics is a Open Source Project started by the San Diego PHP (SDPHP) User 
 
 - Edit the new `parameters.yml` in app/config and provide your database credentials.
 
-- Open your favorite browser and visit `dev.grouptopics.org` and check it out! Don't forget to make changes and send a pull request back to our main repository, read our section on contributing below to find out more.
+- Open your favorite browser and visit `dev.grouptopics.org/app_dev.php` and check it out! Don't forget to make changes and send a pull request back to our main repository, read our section on contributing below to find out more.
 
+	***Note: you may receive a 404 error on from the web debug toolbar that asks if you want to load the profiler. This is an issue with the way Nginx handles the site configuration. ***
 
 ## Contributing
