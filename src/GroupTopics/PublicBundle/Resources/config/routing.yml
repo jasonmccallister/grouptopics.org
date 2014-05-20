@@ -1,7 +1,0 @@
-public_homepage:
-    path:  /
-    defaults: { _controller: GtPublicBundle:Public:index }
-
-public_signup:
-    path:  /signup
-    defaults: { _controller: GtPublicBundle:Public:signup }

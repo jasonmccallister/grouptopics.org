@@ -1,4 +1,3 @@
-gt_public:
-    resource: "@GtPublicBundle/Resources/config/routing.yml"
+group_topics_frontend:
+    resource: "@GroupTopicsFrontendBundle/Resources/config/routing.yml"
     prefix:   /
-
