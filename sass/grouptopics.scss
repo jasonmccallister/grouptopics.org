@@ -50,6 +50,11 @@ p {
     font-size: 1.6rem;
     font-weight: 300;
     margin-bottom: 2.1rem;
+    padding-right: 2.1rem;
+}
+
+div#navigation p {
+    padding-right: 0px;
 }
 
 div#introduction > p {
@@ -131,4 +136,20 @@ div#footer {
     background: #2980B9;
     margin-top: 4.2rem;
     padding-top: 4.2rem;
+}
+
+div#sidebar {
+    @extend .col-md-4;
+}
+
+// FORMS
+
+.form {
+    @extend .col-md-8;
+    @extend .col-md-offset-2;
+    margin-top: 4.2rem;
+}
+
+#signup {
+    
 }
